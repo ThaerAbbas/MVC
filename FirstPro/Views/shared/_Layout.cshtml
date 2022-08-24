@@ -1,0 +1,42 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar" style="background-color: #e3f2fd;">
+  
+
+     <div class="logo"><img src="/images/1.png" alt="Logo" width="220px" height="120px"></div>
+
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       
+      
+    
+       <div class="menu">
+         <li class="nav-item"><a asp-controller="Home"  asp-action="About">About</a></li>
+         <li class="nav-item"><a asp-controller="Home"  asp-action="Contact">Contact</a></li>
+         <li class="nav-item"><a asp-controller="Fever" asp-action="CheckTemp">Doctor</a></li>
+          <li class="nav-item"><a asp-controller="GuessingGame" asp-action="GuessGame">Guessing Game</a></li>
+           <li class="nav-item"><a asp-controller="Person" asp-action="Details">Person</a></li>
+       </div>
+     </ul>
+   </nav>
+  
+   </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+
+  <footer class="footer">
+            <p>&copy; @DateTime.Now.Year - Thaer Abbas</p>
+        </footer>
+
+</html>

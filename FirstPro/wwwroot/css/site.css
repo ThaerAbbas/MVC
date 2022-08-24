@@ -1,0 +1,50 @@
+﻿* {
+    margin: 0;
+    padding: 10px;
+   
+}
+
+body {
+    font-family: Andalus;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: teal;
+    color: #fff;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.logo {
+    font-size: 32px;
+}
+
+.menu {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align:center;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: darkslategray;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
