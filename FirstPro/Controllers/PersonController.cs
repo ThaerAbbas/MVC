@@ -8,17 +8,17 @@ namespace FirstPro.Controllers
     {
 
         public static PersonDetailsViewModel personDetailsViewModel = new();
-        public ViewResult Details()
+        [HttpGet]
+        public IActionResult Details()
         {
-
-          
+         
             
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(01, "lars", "Male", "070000000", "Roma"));
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(02, "Roben", "Male", "070000000", "Italy"));
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(03, "lara", "Female", "070000000", "Spin"));
 
-            personDetailsViewModel.personList.Add(new PersonDetailsViewModel( 01, "lars", "Male", "070000000", "India"));
-
-           
                
-               
+            
             return View(personDetailsViewModel);
         }
 
@@ -48,17 +48,19 @@ namespace FirstPro.Controllers
             return View("Details", personDetailsViewModel);
         }
 
-        [HttpGet]
+        [HttpPost]
         public ActionResult Delete(int id)
         {
 
-            PersonDetailsViewModel deletePerson = new();
-            deletePerson.personList = personDetailsViewModel.personList.Where(item => item.PersonId != (id)).ToList();
+           // PersonDetailsViewModel deletePerson = new();
+            //deletePerson.personList = personDetailsViewModel.personList.Where(item => item.PersonId == id).ToList();
 
-            personDetailsViewModel.personList.Remove(deletePerson.personList[0]);
+            personDetailsViewModel.personList.Remove(personDetailsViewModel.personList
+                .FirstOrDefault(e => e.PersonId ==id ));
+           
 
 
-            return View("Details", personDetailsViewModel);
+            return  View("Details", personDetailsViewModel);
         }
     }
 }

@@ -8,53 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstPro
 build_property.RootNamespace = FirstPro
-build_property.ProjectDir = C:\Users\Thaer\Desktop\d\MVC\FirstPro\
+build_property.ProjectDir = C:\Users\Thaer\Desktop\ajax\MVC\FirstPro\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Thaer\Desktop\d\MVC\FirstPro
+build_property.MSBuildProjectDirectory = C:\Users\Thaer\Desktop\ajax\MVC\FirstPro
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/Fever/CheckTemp.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Ajax/AjaxPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxBamF4UGVyc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Ajax/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Fever/CheckTemp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmV2ZXJcQ2hlY2tUZW1wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/GuessingGame/GuessGame.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/GuessingGame/GuessGame.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NpbmdHYW1lXEd1ZXNzR2FtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/Home/About.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/Home/Contact.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/Home/Home.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Home/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/Home/Index.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/Person/Details.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/Person/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/shared/Error.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/shared/_Layout.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/_ViewImports.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/shared/_PartialPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXF9QYXJ0aWFsUGVyc29uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/d/MVC/FirstPro/Views/_ViewStart.cshtml]
+[C:/Users/Thaer/Desktop/ajax/MVC/FirstPro/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

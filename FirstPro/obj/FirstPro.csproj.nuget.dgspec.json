@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thaer\\Desktop\\d\\MVC\\FirstPro\\FirstPro.csproj": {}
+    "C:\\Users\\Thaer\\Desktop\\ajax\\MVC\\FirstPro\\FirstPro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thaer\\Desktop\\d\\MVC\\FirstPro\\FirstPro.csproj": {
+    "C:\\Users\\Thaer\\Desktop\\ajax\\MVC\\FirstPro\\FirstPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thaer\\Desktop\\d\\MVC\\FirstPro\\FirstPro.csproj",
+        "projectUniqueName": "C:\\Users\\Thaer\\Desktop\\ajax\\MVC\\FirstPro\\FirstPro.csproj",
         "projectName": "FirstPro",
-        "projectPath": "C:\\Users\\Thaer\\Desktop\\d\\MVC\\FirstPro\\FirstPro.csproj",
+        "projectPath": "C:\\Users\\Thaer\\Desktop\\ajax\\MVC\\FirstPro\\FirstPro.csproj",
         "packagesPath": "C:\\Users\\Thaer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thaer\\Desktop\\d\\MVC\\FirstPro\\obj\\",
+        "outputPath": "C:\\Users\\Thaer\\Desktop\\ajax\\MVC\\FirstPro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thaer\\AppData\\Roaming\\NuGet\\NuGet.Config",

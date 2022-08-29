@@ -1,0 +1,27 @@
+﻿@model FirstPro.ViewModels.PersonDetailsViewModel
+
+
+@{
+    ViewData["Title"] = "Ajax";
+   
+}
+
+<div class="row p-3">
+    <div class="col">
+        <div class="row bg-gradient bg-opacity-55 bg-info header-table">
+            <div class="col">ID</div>
+            <div class="col">Gender</div>
+            <div class="col">Name</div>
+            <div class="col">Country</div>
+             <div class="col">Mobile</div>
+
+        </div>
+
+       @foreach(var person in @Model.personList){
+      
+      <partial name="~/Views/shared/_PartialPerson.cshtml" model="@person" />
+     
+}       
+
+    </div>
+</div>

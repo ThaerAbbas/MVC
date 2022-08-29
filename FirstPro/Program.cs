@@ -34,4 +34,9 @@ app.MapControllerRoute(
     pattern: "{controller=Person}/{action=Person}/{id?}");
 
 
+app.MapControllerRoute(
+    name: "Ajax",
+    pattern: "{controller=Ajax}/{action=Index}/{Id?}");
+
+
 app.Run();

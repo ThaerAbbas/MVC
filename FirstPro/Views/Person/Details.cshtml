@@ -38,7 +38,7 @@
     </tr>
   </thead>
   <tbody>
-      @foreach(var person in Model.personList){
+      @foreach(var person in @Model.personList){
     <tr>
          
       <th scope="row"> @person.PersonId</th>
@@ -46,7 +46,9 @@
       <td>@person.Name</td>
       <td>@person.Country</td>
       <td>@person.Mobile</td>
-      <td class="text-center">Delete</td>
+      <td  class="text-center"><form action="Delete" method="post">
+      <button type="button" class="btn btn-danger">Delete</button>
+</form></td>
     </tr>
       }
    </tbody>

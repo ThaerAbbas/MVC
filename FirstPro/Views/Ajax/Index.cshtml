@@ -1,0 +1,18 @@
+﻿@model FirstPro.ViewModels.PersonDetailsViewModel
+
+<h1>Ajax </h1>
+
+
+<row class="d-flex flex-row justify-content-around">
+    <button type="submit" class="btn btn-warning" onclick="showlistOfPerson()" >Peopole</button>
+    <div>
+        <input type="submit" value="Details" onclick="personDetails() " class="btn btn-info custom-width" />
+           <input type="number"  placeholder="Enter id" id="Id" />
+           
+    </div>
+    
+    <button type="submit" class="btn btn-danger" id="delete" onclick="deletePerson()">Delete</button>
+</row>
+
+<div id="show" class="container-fluid md">
+</div>
