@@ -24,7 +24,8 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "Doctor",
-    pattern: "{controller=Doctor}/{action=fever}/{id?}");
+    pattern: "{controller=Fever}/{action=CheckTemp}/{id?}");
+
 app.MapControllerRoute(
     name: "GuessingGame",
     pattern: "{controller=GuessingGame}/{action=GuessGame}/{id?}");
@@ -32,6 +33,11 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "Person",
     pattern: "{controller=Person}/{action=Person}/{id?}");
+
+app.MapControllerRoute(
+    name: "Delete",
+    pattern: "{controller=Delete}/{action=Delete}/{id?}");
+
 
 
 app.MapControllerRoute(

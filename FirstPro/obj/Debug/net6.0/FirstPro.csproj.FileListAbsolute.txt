@@ -712,3 +712,10 @@ C:\Users\Thaer\Desktop\ajax\MVC\FirstPro\obj\Debug\net6.0\refint\FirstPro.dll
 C:\Users\Thaer\Desktop\ajax\MVC\FirstPro\obj\Debug\net6.0\FirstPro.pdb
 C:\Users\Thaer\Desktop\ajax\MVC\FirstPro\obj\Debug\net6.0\FirstPro.genruntimeconfig.cache
 C:\Users\Thaer\Desktop\ajax\MVC\FirstPro\obj\Debug\net6.0\ref\FirstPro.dll
+C:\Users\Thaer\Desktop\Ajax\MVC\FirstPro\bin\Debug\net6.0\System.Web.Mvc.dll
+C:\Users\Thaer\Desktop\Ajax\MVC\FirstPro\bin\Debug\net6.0\System.Web.Razor.dll
+C:\Users\Thaer\Desktop\Ajax\MVC\FirstPro\bin\Debug\net6.0\System.Web.Helpers.dll
+C:\Users\Thaer\Desktop\Ajax\MVC\FirstPro\bin\Debug\net6.0\System.Web.WebPages.Deployment.dll
+C:\Users\Thaer\Desktop\Ajax\MVC\FirstPro\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
+C:\Users\Thaer\Desktop\Ajax\MVC\FirstPro\bin\Debug\net6.0\System.Web.WebPages.dll
+C:\Users\Thaer\Desktop\Ajax\MVC\FirstPro\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll

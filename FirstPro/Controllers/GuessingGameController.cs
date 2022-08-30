@@ -4,23 +4,26 @@ using FirstPro.Models;
 
 namespace FirstPro.Controllers
 {
-    public class GuessingGame : Controller
+    public class GuessingGameController : Controller
     {
+        public IActionResult GuessGame()
+        {
+            return View();
+        }
 
-      
 
 
-            
+        [HttpPost]
         public IActionResult GuessGame(int number) { 
             
-            if(number > 100 || number < 1)
+            if(number > 10 || number < 1)
             {
                 ViewBag.Message = "Is not valid number";
             }
             else
             {
                 ViewBag.Message = GuessModel.GuessGame(number);
-                ViewBag.Count = GuessModel.Count;
+                ViewBag.Count = "Wrong attempts" + " "+ GuessModel.Count;
                
             }
             return View();

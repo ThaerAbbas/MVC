@@ -1,8 +1,10 @@
 ﻿using FirstPro.Models;
+
 namespace FirstPro.ViewModels
 {
     public class PersonDetailsViewModel
     {
+        public int Id { get; set; }
         public int PersonId { get; set; }
         public string Name { get; set; }
         public string Gender { get; set; }
@@ -24,6 +26,11 @@ namespace FirstPro.ViewModels
         }
 
         public List<PersonDetailsViewModel> personList = new List<PersonDetailsViewModel>();
+
+        internal void SaveChanges()
+        {
+            throw new NotImplementedException();
+        }
     }
     
 }

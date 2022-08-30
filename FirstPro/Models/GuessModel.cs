@@ -5,22 +5,21 @@
         public static int GuessGamenumber { get; set; }
         public static int Count { get; private set; }
 
-        internal static int GNR(int GuessGamenumber)
-        {
-            Random r = new Random();
-            GuessGamenumber = r.Next(1, 100);
-            return GuessGamenumber;
-        }
+        
         public static string GuessGame(int nr)
         {
-            Count++;
-            if (nr > GNR(GuessGamenumber))
-                return "Less";
+            Random r = new Random();
+            GuessGamenumber = r.Next(1, 10);
+         
+           Count++;
 
-         else  if (nr < GNR(GuessGamenumber))
-                return "mor";
+            if (nr > GuessGamenumber)
+                return "The number is Less than" +" "+ nr;
+
+         else  if (nr < GuessGamenumber)
+                return "The number is mor than" + " " + nr;
             else
-                return "yes";
+                return "Yesssss you win!";
         }
 
       
