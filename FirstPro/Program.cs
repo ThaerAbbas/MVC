@@ -11,7 +11,7 @@ var app = builder.Build();
 app.UseStaticFiles();
 app.UseRouting();
 
-
+app.UseHttpsRedirection();
 app.UseSession();
 
 
@@ -44,5 +44,7 @@ app.MapControllerRoute(
     name: "Ajax",
     pattern: "{controller=Ajax}/{action=Index}/{Id?}");
 
+
+app.UseSession();
 
 app.Run();
