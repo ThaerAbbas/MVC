@@ -40,6 +40,11 @@ namespace FirstPro.Controllers
         }
 
 
+        public ActionResult Add()
+        {
+            return View();
+        }
+
         [HttpPost]
         public ActionResult Add(int personId, string name, string gender, string mobile, string country)
         {

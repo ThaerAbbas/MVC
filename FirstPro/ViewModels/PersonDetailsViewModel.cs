@@ -27,10 +27,6 @@ namespace FirstPro.ViewModels
 
         public List<PersonDetailsViewModel> personList = new List<PersonDetailsViewModel>();
 
-        internal void SaveChanges()
-        {
-            throw new NotImplementedException();
-        }
     }
     
 }

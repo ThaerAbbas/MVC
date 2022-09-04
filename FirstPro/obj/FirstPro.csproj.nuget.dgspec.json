@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\FirstPro\\FirstPro.csproj": {}
+    "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\FirstPro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\FirstPro\\FirstPro.csproj": {
+    "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\FirstPro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\FirstPro\\FirstPro.csproj",
+        "projectUniqueName": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\FirstPro.csproj",
         "projectName": "FirstPro",
-        "projectPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\FirstPro\\FirstPro.csproj",
+        "projectPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\FirstPro.csproj",
         "packagesPath": "C:\\Users\\Thaer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\FirstPro\\obj\\",
+        "outputPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Thaer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -67,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

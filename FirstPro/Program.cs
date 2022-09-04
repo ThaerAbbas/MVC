@@ -10,41 +10,52 @@ var app = builder.Build();
 
 app.UseStaticFiles();
 app.UseRouting();
-
+app.UseAuthorization();
 app.UseHttpsRedirection();
 app.UseSession();
+app.MapControllers();
 
 
-
-app.MapControllerRoute(
-
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-
-app.MapControllerRoute(
-    name: "Doctor",
-    pattern: "{controller=Fever}/{action=CheckTemp}/{id?}");
-
-app.MapControllerRoute(
-    name: "GuessingGame",
-    pattern: "{controller=GuessingGame}/{action=GuessGame}/{id?}");
+app.MapControllerRoute(name :"Guessing",
+      pattern: "GuessingGame/{*GuessGame}",
+                defaults: new { controller = "GuessingGame", action = "GuessGame" });
 
 app.MapControllerRoute(
     name: "Person",
-    pattern: "{controller=Person}/{action=Person}/{id?}");
+          pattern: "Person/{*Person}",
+                defaults: new { controller = "Person", action = "Person" });
+
+
 
 app.MapControllerRoute(
     name: "Delete",
-    pattern: "{controller=Delete}/{action=Delete}/{id?}");
+        pattern: "Delete/{*Delete}",
+                defaults: new { controller = "Delete", action = "Delete" });
+
+
 
 
 
 app.MapControllerRoute(
     name: "Ajax",
-    pattern: "{controller=Ajax}/{action=Index}/{Id?}");
+     pattern: "Ajax/{*Index}",
+                defaults: new { controller = "AjaxPerson", action = "Index" });
 
 
-app.UseSession();
+
+
+
+
+app.MapControllerRoute(name: "Doctor",
+                pattern: "Fever/{*CheckTemp}",
+                defaults: new { controller = "Fever", action = "CheckTemp" });
+app.MapControllerRoute(name: "default",
+               pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+
+
+
+
 
 app.Run();
