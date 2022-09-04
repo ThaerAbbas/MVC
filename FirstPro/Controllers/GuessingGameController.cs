@@ -8,6 +8,17 @@ namespace FirstPro.Controllers
     {
         public IActionResult GuessGame()
         {
+
+            if (String.IsNullOrEmpty(HttpContext.Session.GetString("empty number")))
+            {
+                int rand = GuessModel.guessNum();
+                GuessModel.GuessGamenumber = rand;
+                HttpContext.Session.SetString("number is", rand.ToString());
+            }
+            else
+            {
+                GuessModel.GuessGamenumber = int.Parse(HttpContext.Session.GetString("number is"));
+            }
             return View();
         }
 
@@ -24,7 +35,8 @@ namespace FirstPro.Controllers
             {
                 ViewBag.Message = GuessModel.GuessGame(number);
                 ViewBag.Count = "Wrong attempts" + " "+ GuessModel.Count;
-               
+
+                Console.WriteLine(GuessModel.GuessGamenumber);
             }
             return View();
         }

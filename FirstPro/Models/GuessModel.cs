@@ -5,11 +5,11 @@
         public static int GuessGamenumber { get; set; }
         public static int Count { get; private set; }
 
-        
+
+      
         public static string GuessGame(int nr)
         {
-            Random r = new Random();
-            GuessGamenumber = r.Next(1, 10);
+           
          
            Count++;
 
@@ -22,6 +22,12 @@
                 return "Yesssss you win!";
         }
 
-      
+
+        internal static int guessNum()
+        {
+            Random r = new Random();
+            return r.Next(1, 10);
+        }
+
     }
 }
