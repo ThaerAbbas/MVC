@@ -1,4 +1,5 @@
 ﻿using FirstPro.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace FirstPro.ViewModels
 {
@@ -25,7 +26,9 @@ namespace FirstPro.ViewModels
         {
         }
 
-        public List<PersonDetailsViewModel> personList = new List<PersonDetailsViewModel>();
+        public List<Person> personList = new List<Person>();
+
+       
 
     }
     

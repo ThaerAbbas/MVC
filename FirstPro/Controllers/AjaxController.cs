@@ -6,7 +6,7 @@ namespace FirstPro.Controllers
     public class AjaxController : Controller
     {
 
-        public IActionResult Index()
+      /*  public IActionResult Index()
         {
             return View();
         }
@@ -62,7 +62,7 @@ namespace FirstPro.Controllers
 
 
             return View("Details", personDetailsViewModel);
-        }
+        }*/
     }
 }
     

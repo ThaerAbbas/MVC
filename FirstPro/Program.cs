@@ -1,3 +1,6 @@
+using FirstPro.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddMvc();
@@ -10,12 +13,17 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+builder.Services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+});
+
 var app = builder.Build();
 
 app.UseStaticFiles();
 app.UseRouting();
-app.UseAuthorization();
-app.UseHttpsRedirection();
+
+
 app.UseSession();
 app.MapControllers();
 
@@ -28,6 +36,7 @@ app.MapControllerRoute(
     name: "Person",
           pattern: "Person/{*Person}",
                 defaults: new { controller = "Person", action = "Person" });
+
 
 
 
