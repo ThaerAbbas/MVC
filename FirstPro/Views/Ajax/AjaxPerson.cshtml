@@ -5,23 +5,30 @@
     ViewData["Title"] = "Ajax";
    
 }
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Phone Number</th>
+            <th scope="col">City</th>
 
-<div class="row p-3">
-    <div class="col">
-        <div class="row bg-gradient bg-opacity-55 bg-info header-table">
-            <div class="col">ID</div>
-            
-            <div class="col">Name</div>
-            <div class="col">Country</div>
-             <div class="col">Mobile</div>
-
-        </div>
+        </tr>
+    </thead>
+    <tbody>
 
        @foreach(var person in @Model.personList){
-      
-      <partial name="~/Views/shared/_PartialPerson.cshtml" model="@person" />
-     
-}       
+            <tr>
+
+
+                <partial name="~/Views/shared/_PartialPerson.cshtml" model="@person" />
+               
+
+            </tr>
+        }
+
+    </tbody>
+</table>
 
     </div>
 </div>
