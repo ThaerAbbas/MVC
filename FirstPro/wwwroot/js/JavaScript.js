@@ -18,7 +18,7 @@ function showlistOfPerson() {
 function deletePerson() {
         var id = document.getElementById("Id").value
         $.ajax({
-            type: "GET",
+            type: "POST",
             url: `Ajax/Delete/${id}`,
             success: function (output) {
                 console.log(output);
