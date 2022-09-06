@@ -6,18 +6,16 @@
 
         public int PersonId { get; set; }
         public string Name { get; set; }
-        public string Gender { get; set; }
-        public string Mobile { get; set; }
+        public string PhoneNumber { get; set; }
 
-       public string Country { get; set; }
+       public string City { get; set; }
 
-        public Person(int personId, string name, string gender, string mobile, string country)
+        public Person(int personId, string name,   string phoneNumber, string city)
         {
             PersonId = personId;
             Name = name;
-            Gender = gender;
-            Mobile = mobile;
-            Country = country;
+            PhoneNumber = phoneNumber;
+            City = city;
         }
 
         public Person()

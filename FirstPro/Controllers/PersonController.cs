@@ -7,18 +7,32 @@ namespace FirstPro.Controllers
     public class PersonController : Controller
     {
 
+     public static   int id = 1;
+
+        public static int ids;
+
+
+
         public static PersonDetailsViewModel personDetailsViewModel = new();
+
+        public static List<PersonDetailsViewModel> person = personDetailsViewModel.personList.ToList();
+
+
+
         [HttpGet]
         public IActionResult Details()
         {
+          
+            if (personDetailsViewModel.personList.Count == 0 )
+            {
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(id++, "lars", "070000000", "Roma"));
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(id++, "Roben", "070000000", "Italy"));
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(id++, "lara", "070000000", "Spin"));
+                ids = personDetailsViewModel.personList.Count;
+                return View(personDetailsViewModel);
+            }
          
-            
-                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(01, "lars", "Male", "070000000", "Roma"));
-                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(02, "Roben", "Male", "070000000", "Italy"));
-                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(03, "lara", "Female", "070000000", "Spin"));
 
-               
-            
             return View(personDetailsViewModel);
         }
 
@@ -46,26 +60,34 @@ namespace FirstPro.Controllers
         }
 
         [HttpPost]
-        public ActionResult Add(int personId, string name, string gender, string mobile, string country)
+        public ActionResult Add(int personId , string name,  string phoneNumber, string city)
         {
-            personDetailsViewModel.personList.Add(new PersonDetailsViewModel(personId + 1, name, gender, mobile , country));
-            personId++;
-            return View("Details", personDetailsViewModel);
+            personDetailsViewModel.personList.Add(new PersonDetailsViewModel(id++, name, phoneNumber , city));
+            ids++;
+
+
+     
+          return  View("Details", personDetailsViewModel);
         }
+
+       
+
+
 
         [HttpPost]
         public ActionResult Delete(int id)
         {
 
-           // PersonDetailsViewModel deletePerson = new();
-            //deletePerson.personList = personDetailsViewModel.personList.Where(item => item.PersonId == id).ToList();
+   
 
-            personDetailsViewModel.personList.Remove(personDetailsViewModel.personList
-                .FirstOrDefault(e => e.PersonId ==id ));
-           
+            person.Remove(person.SingleOrDefault(o => o.PersonId == id));
 
 
-            return  View("Details", personDetailsViewModel);
+            personDetailsViewModel.personList = person;
+
+        
+
+            return  RedirectToAction("Details");
         }
     }
 }

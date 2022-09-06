@@ -27,10 +27,7 @@ app.MapControllerRoute(
 
 
 
-app.MapControllerRoute(
-    name: "Delete",
-        pattern: "Delete/{*Delete}",
-                defaults: new { controller = "Delete", action = "Delete" });
+
 
 
 

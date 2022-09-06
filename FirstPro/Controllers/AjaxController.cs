@@ -20,9 +20,9 @@ namespace FirstPro.Controllers
             _id = 1;
             if (personDetailsViewModel.personList.Count == 0)
             {
-                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(_id++, "lars", "Male", "070000000", "Roma"));
-                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(_id++, "lars", "Male", "070000000", "Roma"));
-                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(_id++, "lars", "Male", "070000000", "Roma"));
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(_id++, "lars", "070000000", "Roma"));
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(_id++, "lars",  "070000000", "Roma"));
+                personDetailsViewModel.personList.Add(new PersonDetailsViewModel(_id++, "lars",  "070000000", "Roma"));
                 _id = personDetailsViewModel.personList.Count();
             }
             return PartialView("AjaxPerson", personDetailsViewModel);
@@ -46,7 +46,7 @@ namespace FirstPro.Controllers
         [HttpPost]
         public ActionResult Add(int personId, string name, string gender, string mobile, string country)
         {
-            personDetailsViewModel.personList.Add(new PersonDetailsViewModel(personId + 1, name, gender, mobile, country));
+            personDetailsViewModel.personList.Add(new PersonDetailsViewModel(personId + 1, name,  mobile, country));
             personId++;
             return View("Details", personDetailsViewModel);
         }
