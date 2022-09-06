@@ -39,21 +39,14 @@
   <tbody>
     
 
-    
-
-
       @foreach(var person in @Model.personList){
     <tr>
-         
-      <th scope="row"> @person.PersonId</th>
 
-      <td>@person.Name</td>
-      <td>@person.PhoneNumber</td>
-      <td>@person.City</td>
+
+        <partial name="~/Views/shared/_PartialPerson.cshtml" model="@person" />
       <td  class="text-center">
           <form action = '@Url.Action("Delete", new {id = @person.PersonId})' method="post">
-
-              <input type="submit"  value="delete" >
+                      <input type="submit"  value="delete" >            
           </form>
       
       </td>
@@ -63,8 +56,5 @@
    </tbody>
 </table>
  
-   
-        
-    
 </body>
 </html>
