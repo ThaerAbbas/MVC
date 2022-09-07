@@ -16,27 +16,29 @@ namespace FirstPro.Models
         public int PersonId { get; set; }
         [Column("Name")]
         public string Name { get; set; }
-        [Column("Gender")]
-        public string Gender { get; set; }
-        [Column("Mobile")]
-        public string Mobile { get; set; }
-       
-
+    
+        [Column("PhoneNumber")]
+        public string PhoneNumber { get; set; }
+      
         [Column("City")]
         public City City { get; set; }
         [Column("CityId")]
         public int CityId { get; set; }
 
+        public string PersonCity { get; set; }
+   
 
 
-        public Person(int personId, string name, string gender, string mobile, int cityIdy)
+
+        public Person(int personId, string name,  string phoneNumber, int cityIdy, string personCity)
         {
             PersonId = personId;
             Name = name;
-            Gender = gender;
-            Mobile = mobile;
+
+            PhoneNumber = phoneNumber;
           
             CityId = cityIdy;
+            PersonCity = personCity;
            
         }
 
