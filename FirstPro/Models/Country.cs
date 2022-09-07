@@ -1,5 +1,8 @@
-﻿namespace FirstPro.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace FirstPro.Models
 {
+    [Table("Country")]
     public class Country
     {
 
@@ -17,7 +20,7 @@
             Name = name;
         }
 
-        public List<Person> People = new List<Person>();
+        public List<City> cities = new List<City>();
     
     }
 }

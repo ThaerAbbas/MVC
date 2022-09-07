@@ -1,7 +1,11 @@
-﻿using System.Diagnostics.Metrics;
+﻿
+
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FirstPro.Models
 {
+
+    [Table("City")]
     public class City
     {
 
@@ -24,9 +28,9 @@ namespace FirstPro.Models
             CountryId = countryId;
         }
 
-      
 
-        public List<Person> People { get; set; }
+
+        public List<Person> People = new List<Person>();
     }
 }
     

@@ -10,15 +10,15 @@ namespace FirstPro.ViewModels
         public string Name { get; set; }
         public string Gender { get; set; }
         public string Mobile { get; set; }
-       public string Country { get; set; }
+        public City City { get; set; }
 
-        public PersonDetailsViewModel(int personId, string name, string gender, string mobile, string country)
+        public PersonDetailsViewModel(int personId, string name, string mobile, City city)
         {
             PersonId = personId;
             Name = name;
-            Gender = gender;
+         
             Mobile = mobile;
-            Country = country;
+            City = city;
            
         }
 
@@ -27,7 +27,8 @@ namespace FirstPro.ViewModels
         }
 
         public List<Person> personList = new List<Person>();
-
+        public List<City> cityList = new List<City>();
+        public List<Country> countries = new List<Country>();
        
 
     }

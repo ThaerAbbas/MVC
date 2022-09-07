@@ -38,6 +38,23 @@ app.MapControllerRoute(
                 defaults: new { controller = "Person", action = "Person" });
 
 
+app.MapControllerRoute(
+    name: "City",
+          pattern: "City/{*City}",
+                defaults: new { controller = "City", action = "City" });
+
+
+
+
+
+app.MapControllerRoute(
+    name: "Country",
+          pattern: "Country/{*Country}",
+                defaults: new { controller = "Country", action = "Country" });
+
+
+
+
 
 
 app.MapControllerRoute(

@@ -1,0 +1,34 @@
+﻿@model FirstPro.ViewModels.PersonDetailsViewModel
+
+
+<html>
+<head>
+
+</head>
+<body>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+
+                <th scope="col">Name</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var country in @Model.countries)
+            {
+                <tr>
+
+                    <th scope="row"> @country.Id</th>
+
+                    <td>@country.Name</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+﻿@model FirstPro.ViewModels.PersonDetailsViewModel
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+
+                <th scope="col">Name</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+
+        @foreach (var city in @Model.cityList)
+                {
+                <tr>
+
+                    <th scope="row"> @city.Id</th>
+
+                    <td>@city.Name</td>
+       
+                </tr>
+                }
+        </tbody>
+    </table>
+
+
+   

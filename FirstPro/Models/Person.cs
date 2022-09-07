@@ -30,7 +30,7 @@ namespace FirstPro.Models
 
 
 
-        public Person(int personId, string name,  string phoneNumber, int cityIdy, string personCity)
+        public Person(int personId, string name,  string phoneNumber, int cityIdy, City city)
         {
             PersonId = personId;
             Name = name;
@@ -38,7 +38,7 @@ namespace FirstPro.Models
             PhoneNumber = phoneNumber;
           
             CityId = cityIdy;
-            PersonCity = personCity;
+            City = city;
            
         }
 
