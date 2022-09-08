@@ -1,6 +1,9 @@
 ﻿using FirstPro.Models;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace FirstPro.Models
 {
+    [Table("Country")]
     public class Country
     {
     

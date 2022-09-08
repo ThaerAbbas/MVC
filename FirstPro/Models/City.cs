@@ -1,7 +1,9 @@
 ﻿using  FirstPro.Models;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FirstPro.Models
 {
+    [Table("City")]
     public class City
     {
    

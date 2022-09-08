@@ -1,0 +1,34 @@
+﻿@model FirstPro.ViewModels.languageViewModel
+
+
+<html>
+<head>
+
+</head>
+<body>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+
+                <th scope="col">Name</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var lang in @Model.languages)
+            {
+                <tr>
+
+                    <th scope="row"> @lang.LangId</th>
+
+                    <td>@lang.Name</td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

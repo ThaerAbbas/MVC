@@ -26,12 +26,12 @@ namespace FirstPro.Models
         [Column("CityId")]
         public int CityId { get; set; }
 
-      
-   
+        public int LangId { get; set; }
 
 
 
-        public Person(int personId, string name,  string phoneNumber, int cityIdy, City city)
+
+        public Person(int personId, string name,  string phoneNumber, int cityIdy, City city, int langId)
         {
             PersonId = personId;
             Name = name;
@@ -40,9 +40,11 @@ namespace FirstPro.Models
           
             CityId = cityIdy;
             City = city;
-           
-        }
+            LangId = langId;
 
+
+        }
+        public List<Language> languages = new List<Language>();
         public Person()
         {
         }
