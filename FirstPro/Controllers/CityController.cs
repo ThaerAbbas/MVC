@@ -20,15 +20,15 @@ namespace FirstPro.Controllers
 
 
 
-        public static PersonDetailsViewModel personDetailsViewModel = new();
+        public static CityViewModel cityViewModel = new();
 
         [HttpGet]
         public IActionResult Index()
         {
 
-            personDetailsViewModel.cityList = _context.Cities.ToList();
+            cityViewModel.cities = _context.Cities.ToList();
 
-                return View("Index", personDetailsViewModel);
+                return View("Index", cityViewModel);
         }
     }
 }

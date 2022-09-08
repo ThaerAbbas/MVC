@@ -1,26 +1,29 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
+﻿using FirstPro.Models;
 namespace FirstPro.Models
 {
-    [Table("Country")]
     public class Country
     {
-
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public Country()
-        {
-
-        }
-
-
-        public Country(int id, string name)
-        {
-            Id = id;
-            Name = name;
-        }
-
-        public List<City> cities = new List<City>();
     
+
+    public Country()
+    {
+
     }
+
+    public Country(int id, string name)
+    {
+        Id = id;
+        Name = name;
+
+        }
+
+        public List<City> cities { get; set; }
+    public int Id { get; set; }
+    public string Name { get; set; }
+
+
+
+  }
+
+
 }

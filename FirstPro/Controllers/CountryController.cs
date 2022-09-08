@@ -18,14 +18,14 @@ namespace FirstPro.Controllers
         }
 
 
-        public static PersonDetailsViewModel personDetailsViewModel = new();
+        public static  CountryViewModel countryViewModel = new();
 
         public IActionResult Country()
         {
 
-            personDetailsViewModel.countries = _context.Countries.ToList();
+            countryViewModel.countries = _context.Countries.ToList();
 
-            return View("CountryIndex", personDetailsViewModel);
+            return View("CountryIndex", countryViewModel);
         }
     }
 }

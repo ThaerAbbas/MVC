@@ -2,6 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using static FirstPro.ViewModels.CityViewModel;
 
 namespace FirstPro.Models
 {
@@ -9,7 +10,7 @@ namespace FirstPro.Models
 
 
     [Table("Person")]
-    public class Person
+    public class Person 
     {
 
         [Column("PersonId")]
@@ -25,7 +26,7 @@ namespace FirstPro.Models
         [Column("CityId")]
         public int CityId { get; set; }
 
-        public string PersonCity { get; set; }
+      
    
 
 

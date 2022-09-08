@@ -27,8 +27,7 @@ namespace FirstPro.ViewModels
         }
 
         public List<Person> personList = new List<Person>();
-        public List<City> cityList = new List<City>();
-        public List<Country> countries = new List<Country>();
+        
        
 
     }
