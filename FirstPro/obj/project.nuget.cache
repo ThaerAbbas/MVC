@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+aoAVOlQAR1RODg5qNqK+PsSeHDb6N/5SvBs0S5mhw+4+h6Hf6FS/GsupXkuz90rhoPcOV9vbWZNOL82TU3m7A==",
+  "dgSpecHash": "aoFy7Y5iN08FFSrlw2OmOKH1bLRRmTLbKMThUXc0ytn688l0VBYIhFUh1IXCHRe83KuuFLepccP29ePZjpf8Vg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\FirstPro.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Thaer\\.nuget\\packages\\copilotdev.net.api\\1.1.0\\copilotdev.net.api.1.1.0.nupkg.sha512",
     "C:\\Users\\Thaer\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Thaer\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Thaer\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

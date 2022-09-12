@@ -56,8 +56,8 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "Language",
-          pattern: "Lang/{*Language}",
-                defaults: new { controller = "Lang", action = "Language" });
+          pattern: "Language/{*Language}",
+                defaults: new { controller = "Language", action = "Language" });
 
 
 

@@ -8,18 +8,18 @@ namespace FirstPro.ViewModels
         public int Id { get; set; }
         public int PersonId { get; set; }
         public string Name { get; set; }
-        public string Gender { get; set; }
-        public string Mobile { get; set; }
+  
+        public string PhoneNumber { get; set; }
         public City City { get; set; }
-
-        public PersonDetailsViewModel(int personId, string name, string mobile, City city)
+        public int CityId { get; set; }
+        public PersonDetailsViewModel(int personId, string name, string phoneNumber,  int cityId)
         {
             PersonId = personId;
             Name = name;
-         
-            Mobile = mobile;
-            City = city;
-           
+
+            PhoneNumber = phoneNumber;
+            CityId = cityId;
+            CityId = cityId;
         }
 
         public PersonDetailsViewModel()

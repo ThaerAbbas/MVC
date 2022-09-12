@@ -5,6 +5,6 @@ namespace FirstPro.ViewModels
 {
     public class languageViewModel
     {
-        public List <Language> languages = new List <Language> ();
+        public List<Language> languages = new List<Language>();
     }
 }

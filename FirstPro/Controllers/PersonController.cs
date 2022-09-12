@@ -51,53 +51,32 @@ namespace FirstPro.Controllers
 
 
         }
+/*
+        [HttpPost]
+        public ActionResult Add(PersonDetailsViewModel personDetails)
+        {
+            if (ModelState.IsValid)
+            {
+                Person person = new();
+
+                person.Name = personDetails.Name;
+                person.PhoneNumber = personDetails.PhoneNumber;
+                person.CityId = personDetails.CityId;
 
 
 
+                _context.People.Add(person);
+
+                _context.SaveChanges();
+
+            }
+            return View("Details", personDetailsViewModel);
+
+        }
+/*
 
 
-
-
-
-
-
-
-
-
-
-
-        /* public static PersonDetailsViewModel personDetailsViewModel = new();
-         [HttpGet]
-         public IActionResult Details()
-         {
-
-
-                 personDetailsViewModel.personList.Add(new PersonDetailsViewModel(01, "lars", "Male", "070000000", "Roma"));
-                 personDetailsViewModel.personList.Add(new PersonDetailsViewModel(02, "Roben", "Male", "070000000", "Italy"));
-                 personDetailsViewModel.personList.Add(new PersonDetailsViewModel(03, "lara", "Female", "070000000", "Spin"));
-
-
-
-             return View(personDetailsViewModel);
-         }
-
-         */
-
-        /*  [HttpPost]
-         public IActionResult Search(string name)
-         {
-
-
-             PersonDetailsViewModel serchPerson = new();
-
-             serchPerson.personList = personDetailsViewModel.personList.Where(item => item.Name.Contains(name)).ToList();
-
-
-             return View("Details", serchPerson);
-
-
-         }
-
+        /*
 
          public ActionResult Add()
          {
@@ -125,7 +104,7 @@ namespace FirstPro.Controllers
 
 
              return  View("Details", personDetailsViewModel);
-         
+
         }*/
     }
-}
+    }

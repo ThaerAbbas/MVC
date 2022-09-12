@@ -1,19 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using FirstPro.ViewModels;
+using FirstPro.Models;
 
 namespace FirstPro.Controllers
 {
     public class AjaxController : Controller
     {
 
-      /*  public IActionResult Index()
-        {
-            return View();
-        }
         public static int _id;
         public static PersonDetailsViewModel personDetailsViewModel = new();
 
-      
+      /*
         [HttpGet]
         public IActionResult Peopole()
         {
@@ -27,6 +24,7 @@ namespace FirstPro.Controllers
             }
             return PartialView("AjaxPerson", personDetailsViewModel);
         }
+      */
 
         [HttpPost]
 
@@ -37,19 +35,13 @@ namespace FirstPro.Controllers
             PersonDetailsViewModel pp = new();
             pp.personList = personDetailsViewModel.personList.Where(item => item.PersonId == id).ToList();
 
-            return PartialView("AjaxPerson", pp);
+            return PartialView("AjaxPerson", personDetailsViewModel);
 
 
         }
 
 
-        [HttpPost]
-        public ActionResult Add(int personId, string name, string gender, string mobile, string country)
-        {
-            personDetailsViewModel.personList.Add(new PersonDetailsViewModel(personId + 1, name, gender, mobile, country));
-            personId++;
-            return View("Details", personDetailsViewModel);
-        }
+       
 
         [HttpGet]
         public ActionResult Delete(int id)
@@ -62,7 +54,7 @@ namespace FirstPro.Controllers
 
 
             return View("Details", personDetailsViewModel);
-        }*/
+        }
     }
 }
     

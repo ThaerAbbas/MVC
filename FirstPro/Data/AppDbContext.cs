@@ -54,19 +54,20 @@ namespace FirstPro.Data
                 .UsingEntity(h => h.HasData(new { PersonId = 1, LangId = 1 }));
 
         }
-    
 
-        
-    public class ApplicationDbContext : DbContext
-        {
-            protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+
+
+        /*public class ApplicationDbContext : DbContext
             {
-                optionsBuilder.UseSqlServer(@"Data Source=localhost\THAER;Initial Catalog=Person;Integrated Security=True");
+                protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+                {
+                    optionsBuilder.UseSqlServer(@"Data Source=localhost\THAER;Initial Catalog=Person;Integrated Security=True");
+                }
             }
-        }
 
 
-
+     */
 
     }
+
 }

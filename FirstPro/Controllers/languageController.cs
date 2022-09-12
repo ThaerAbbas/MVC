@@ -1,5 +1,6 @@
 ﻿using FirstPro.Data;
 using FirstPro.ViewModels;
+using FirstPro.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FirstPro.Controllers
@@ -20,12 +21,12 @@ namespace FirstPro.Controllers
         public static languageViewModel language = new();
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult LangIndex()
         {
 
             language.languages = _context.languages.ToList();
 
-            return View("Index",language);
+            return View("LangIndex", language);
         }
     }
 }
