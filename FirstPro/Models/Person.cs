@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
@@ -24,8 +25,10 @@ namespace FirstPro.Models
         [Column("City")]
         public City City { get; set; }
         [Column("CityId")]
+     
         public int CityId { get; set; }
 
+        public Language Language  { get; set; }
         public int LangId { get; set; }
 
 

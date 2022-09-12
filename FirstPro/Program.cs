@@ -2,7 +2,6 @@ using FirstPro.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
 builder.Services.AddMvc();
 builder.Services.AddDistributedMemoryCache();
 
@@ -45,6 +44,9 @@ app.MapControllerRoute(
 
 
 
+app.MapControllerRoute(name: "Create",
+      pattern: "person/{*Create}",
+                defaults: new { controller = "person", action = "Create" });
 
 
 app.MapControllerRoute(

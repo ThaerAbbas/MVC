@@ -2,6 +2,8 @@
 using FirstPro.Models;
 using FirstPro.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 
 namespace FirstPro.Controllers
 {
@@ -11,13 +13,13 @@ namespace FirstPro.Controllers
     {
         readonly AppDbContext _context;
 
-        public PersonController(AppDbContext context) 
+        public PersonController(AppDbContext context)
         {
             _context = context;
         }
 
 
-    
+
 
 
 
@@ -25,8 +27,8 @@ namespace FirstPro.Controllers
         [HttpGet]
         public IActionResult Person()
         {
-            personDetailsViewModel.personList= _context.People.ToList();
 
+            personDetailsViewModel.personList = _context.People.ToList();
             return View("Details", personDetailsViewModel);
         }
 
@@ -40,71 +42,19 @@ namespace FirstPro.Controllers
 
             PersonDetailsViewModel serchPerson = new();
 
-                  var result = from person in _context.People where 
-                               person.Name == name select person;
+            var result = from person in _context.People
+                         where
+                         person.Name == name
+                         select person;
 
             serchPerson.personList = result.ToList();
-          
+
 
 
             return View("Details", serchPerson);
 
 
         }
-/*
-        [HttpPost]
-        public ActionResult Add(PersonDetailsViewModel personDetails)
-        {
-            if (ModelState.IsValid)
-            {
-                Person person = new();
 
-                person.Name = personDetails.Name;
-                person.PhoneNumber = personDetails.PhoneNumber;
-                person.CityId = personDetails.CityId;
-
-
-
-                _context.People.Add(person);
-
-                _context.SaveChanges();
-
-            }
-            return View("Details", personDetailsViewModel);
-
-        }
-/*
-
-
-        /*
-
-         public ActionResult Add()
-         {
-             return View();
-         }
-
-         [HttpPost]
-         public ActionResult Add(int personId, string name, string gender, string mobile, string country)
-         {
-             personDetailsViewModel.personList.Add(new PersonDetailsViewModel(personId + 1, name, gender, mobile , country));
-             personId++;
-             return View("Details", personDetailsViewModel);
-         }
-
-         [HttpPost]
-         public ActionResult Delete(int id)
-         {
-
-            // PersonDetailsViewModel deletePerson = new();
-             //deletePerson.personList = personDetailsViewModel.personList.Where(item => item.PersonId == id).ToList();
-
-             personDetailsViewModel.personList.Remove(personDetailsViewModel.personList
-                 .FirstOrDefault(e => e.PersonId ==id ));
-
-
-
-             return  View("Details", personDetailsViewModel);
-
-        }*/
-    }
-    }
+    }  
+}
