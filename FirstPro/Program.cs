@@ -12,10 +12,12 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 
 var app = builder.Build();
 
@@ -45,8 +47,8 @@ app.MapControllerRoute(
 
 
 app.MapControllerRoute(name: "Create",
-      pattern: "person/{*Create}",
-                defaults: new { controller = "person", action = "Create" });
+      pattern: "Create/{*Create}",
+                defaults: new { controller = "Person", action = "Create" });
 
 
 app.MapControllerRoute(
@@ -66,7 +68,7 @@ app.MapControllerRoute(
 app.MapControllerRoute(
     name: "Delete",
         pattern: "Delete/{*Delete}",
-                defaults: new { controller = "Delete", action = "Delete" });
+                defaults: new { controller = "Person", action = "Delete" });
 
 
 
@@ -74,8 +76,8 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "Ajax",
-     pattern: "Ajax/{*Index}",
-                defaults: new { controller = "AjaxPerson", action = "Index" });
+     pattern: "Ajax/{*AjaxIndex}",
+                defaults: new { controller = "Ajax", action = "AjaxIndex" });
 
 
 

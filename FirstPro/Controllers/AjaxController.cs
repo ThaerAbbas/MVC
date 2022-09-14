@@ -33,9 +33,9 @@ namespace FirstPro.Controllers
         {
 
             PersonDetailsViewModel pp = new();
-            pp.personList = personDetailsViewModel.personList.Where(item => item.PersonId == id).ToList();
+            personDetailsViewModel.personList = personDetailsViewModel.personList.Where(item => item.PersonId == id).ToList();
 
-            return PartialView("AjaxPerson", personDetailsViewModel);
+            return View("AjaxPerson", personDetailsViewModel);
 
 
         }

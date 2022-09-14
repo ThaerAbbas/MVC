@@ -16,22 +16,7 @@
    
 </form>
 
-<form action="Add" method="post">
-  <div>
-<div class="form-group">
-  <input type="text" class=" inputtext " name="Name" value="" placeholder="Name"  style="width:auto">
-            </div>
-                <div class="form-group">
-            <input type="text" class=" inputtext " name="PhoneNumber" value="" placeholder="PhoneNumber" style="width:auto">
-                </div>
-                    <div class="form-group">
-            <input type="text" class=" inputtext " name="CityId" value="" placeholder="CityId" style="width:auto">
-                    </div>
-                        <div class="form-group">
-   <input class="btn btn-secondary " id="submit" type="submit" value="Add">  
-   </div>
-  </div>
-</form>
+
     <div>
         <a asp-action="Create">Create</a>
 
@@ -57,11 +42,14 @@
       <td>@person.Name</td>
       <td>@person.PhoneNumber</td>
       <td>@person.CityId</td>
-     
 
-                    <td  class="text-center"><form action="Delete" method="post">
-      <button type="button" class="btn btn-danger">Delete</button>
-</form></td>
+
+                    <td class="text-center">
+                        <form asp-action="Delete" method="post">
+                            <input type="hidden" name="id" value="@Model.PersonId" />
+                            <input type="submit" value="Delete" class="btn btn-danger" />
+                        </form>
+                    </td>
     </tr>
       }
    </tbody>

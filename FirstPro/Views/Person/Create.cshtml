@@ -8,30 +8,27 @@
 
 <h2>Create Person</h2>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
 
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <label asp-for="CityId" class="control-label"></label>
-                <select asp-for="CityId" class="form-control" asp-items="ViewBag.CityNames"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="PhoneNumber" class="control-label"></label>
-                <input asp-for="PhoneNumber" class="form-control" />
-                <span asp-validation-for="PhoneNumber" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+<form action="Create" method="post">
+            <div>
+                <div class="form-group">
+            <input type="text" class=" form-control " name="Name" value="" placeholder="Name" style="width:auto">
+                </div>
+                <div class="form-group">
+            <input type="text" class=" form-control " name="PhoneNumber" value="" placeholder="PhoneNumber" style="width:auto">
+                </div>
+                <div class="form-group">
+            <input type="text" class=" form-control " name="CityId" value="" placeholder="CityId" style="width:auto">
+                </div>
+                <div class="form-group">
+            <input class="btn btn-secondary " id="submit" type="submit" value="Create">
+                </div>
             </div>
         </form>
     </div>
 </div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

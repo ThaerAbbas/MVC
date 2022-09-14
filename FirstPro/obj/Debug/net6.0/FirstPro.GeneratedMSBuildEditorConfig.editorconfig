@@ -15,12 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Thaer\Desktop\Ajax\MVC\MVC\FirstPro
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/FirstPro/Views/Ajax/AjaxPerson.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxBamF4UGVyc29uLmNzaHRtbA==
+[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/FirstPro/Views/Ajax/AjaxIndex.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxBamF4SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/FirstPro/Views/Ajax/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxJbmRleC5jc2h0bWw=
+[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/FirstPro/Views/Ajax/AjaxPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxBamF4UGVyc29uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Thaer/Desktop/Ajax/MVC/MVC/FirstPro/Views/City/Index.cshtml]
