@@ -45,10 +45,8 @@
 
 
                     <td class="text-center">
-                        <form asp-action="Delete" method="post">
-                            <input type="hidden" name="id" value="@Model.PersonId" />
-                            <input type="submit" value="Delete" class="btn btn-danger" />
-                        </form>
+                        <a asp-action="Edit" asp-route-id="@person.PersonId">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@person.PersonId">Delete</a>
                     </td>
     </tr>
       }

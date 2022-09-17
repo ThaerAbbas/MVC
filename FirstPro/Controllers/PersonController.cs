@@ -56,9 +56,16 @@ namespace FirstPro.Controllers
             Response.Redirect("Create");
         }
 
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
-            ViewBag.CityNames = new SelectList(_context.Cities, "Id", "Name");
+            if (ModelState.IsValid)
+            {
+                var person = _context.People.FirstOrDefault(m => m.PersonId == id);
+                ViewBag.CityNames = new SelectList(_context.Cities, "Id", "Name");
+                return View(person);
+            }
+           
+           
 
             return View();
         }
@@ -66,17 +73,11 @@ namespace FirstPro.Controllers
         [HttpPost]
         public IActionResult Edit(int id, Person person)
         {
-            ModelState.Remove("City");
-            ModelState.Remove("id");
-            ModelState.Remove("Languages");
-            if (ModelState.IsValid)
-            {
-                _context.Update(person);
+          
+            _context.Update(person);
                 _context.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            ViewBag.CityNames = new SelectList(_context.Cities, "Id", "Name", person.CityId);
-            return View(person);
+                return RedirectToAction("Details");
+        
         }
 
 
@@ -105,30 +106,35 @@ namespace FirstPro.Controllers
 
         }
 
-        [HttpPost]
-        public ActionResult Delete(int id)
+
+
+
+
+      
+
+        public IActionResult Delete(int id)
         {
 
-            id = personDetailsViewModel.Id;
 
+            if (ModelState.IsValid)
+            {
+                var person = _context.People.FirstOrDefault(m => m.PersonId == id);
 
+                return View(person);
+            }
+            return RedirectToAction("Details");
 
-                Person person =    _context.People.Find(id);
-                Console.WriteLine(person);
+        }
 
-                _context.People.Remove(person);
-
-
-                _context.SaveChanges();
-
-            
-
-
-
-
-
+        [HttpPost]
+        public IActionResult Delete(Person p, int perId)
+        {
+            var person = _context.People.FirstOrDefault(m => m.PersonId == perId);
+            _context.People.Remove(person);
+            _context.SaveChanges();
             return RedirectToAction("Details");
         }
+
 
     }  
 }

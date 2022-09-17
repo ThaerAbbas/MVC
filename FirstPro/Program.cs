@@ -1,5 +1,8 @@
 using FirstPro.Data;
+using Microsoft.CodeAnalysis.Differencing;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileSystemGlobbing.Internal;
+using System.Xml.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMvc();
@@ -62,6 +65,12 @@ app.MapControllerRoute(
     name: "Language",
           pattern: "Language/{*Language}",
                 defaults: new { controller = "Language", action = "Language" });
+
+
+    app.MapControllerRoute(
+    name: "Edit",
+        pattern: "Edit/{*Edit}",
+                defaults: new { controller = "Person", action = "Edit" });
 
 
 
