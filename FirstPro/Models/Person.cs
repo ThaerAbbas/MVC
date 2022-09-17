@@ -28,13 +28,13 @@ namespace FirstPro.Models
      
         public int CityId { get; set; }
 
-        public Language Language  { get; set; }
+        public List<Language> languages = new List<Language>();
         public int LangId { get; set; }
 
 
 
 
-        public Person(int personId, string name,  string phoneNumber, int cityIdy, City city, int langId)
+        public Person(int personId, string name,  string phoneNumber, int cityIdy, int langId)
         {
             PersonId = personId;
             Name = name;
@@ -42,12 +42,12 @@ namespace FirstPro.Models
             PhoneNumber = phoneNumber;
           
             CityId = cityIdy;
-            City = city;
+         
             LangId = langId;
 
 
         }
-        public List<Language> languages = new List<Language>();
+     
         public Person()
         {
         }

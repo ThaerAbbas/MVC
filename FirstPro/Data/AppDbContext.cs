@@ -50,25 +50,16 @@ namespace FirstPro.Data
                 .WithMany(p => p.People)
                 .HasForeignKey(p => p.CityId);
 
-/*
-            modelBuilder.Entity<Person>().HasMany(l => l.languages)
-                .WithMany(p => p.People)
-                .UsingEntity(h => h.HasData(new { PersonId = 1, LangId = 1 }));*/
+         modelBuilder.Entity<Person>()
+                          .HasMany(p => p.languages)
+                          .WithMany(pe => pe.People);
 
+       
         }
 
 
 
-        /*public class ApplicationDbContext : DbContext
-            {
-                protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-                {
-                    optionsBuilder.UseSqlServer(@"Data Source=localhost\THAER;Initial Catalog=Person;Integrated Security=True");
-                }
-            }
-
-
-     */
+   
 
     }
 

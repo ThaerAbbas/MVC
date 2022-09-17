@@ -12,6 +12,7 @@ namespace FirstPro.Models
         public int LangId { get; set; }
         public string Name { get; set; }
 
+        public List<Person> People = new List<Person>();
         public int PersonId { get; set; }
 
         public Language()
@@ -27,7 +28,7 @@ namespace FirstPro.Models
             PersonId = personId;
         }
 
-        public List<Person> People = new List<Person>();
+      
 
 
 

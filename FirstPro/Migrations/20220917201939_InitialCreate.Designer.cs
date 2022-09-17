@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FirstPro.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220912194420_InitialCreate")]
+    [Migration("20220917201939_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -116,9 +116,6 @@ namespace FirstPro.Migrations
 
                     b.HasKey("LangId");
 
-                    b.HasIndex("PersonId")
-                        .IsUnique();
-
                     b.ToTable("Language");
 
                     b.HasData(
@@ -201,6 +198,21 @@ namespace FirstPro.Migrations
                         });
                 });
 
+            modelBuilder.Entity("LanguagePerson", b =>
+                {
+                    b.Property<int>("PeoplePersonId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("languagesLangId")
+                        .HasColumnType("int");
+
+                    b.HasKey("PeoplePersonId", "languagesLangId");
+
+                    b.HasIndex("languagesLangId");
+
+                    b.ToTable("LanguagePerson");
+                });
+
             modelBuilder.Entity("FirstPro.Models.City", b =>
                 {
                     b.HasOne("FirstPro.Models.Country", "Country")
@@ -210,15 +222,6 @@ namespace FirstPro.Migrations
                         .IsRequired();
 
                     b.Navigation("Country");
-                });
-
-            modelBuilder.Entity("FirstPro.Models.Language", b =>
-                {
-                    b.HasOne("FirstPro.Models.Person", null)
-                        .WithOne("Language")
-                        .HasForeignKey("FirstPro.Models.Language", "PersonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 
             modelBuilder.Entity("FirstPro.Models.Person", b =>
@@ -232,6 +235,21 @@ namespace FirstPro.Migrations
                     b.Navigation("City");
                 });
 
+            modelBuilder.Entity("LanguagePerson", b =>
+                {
+                    b.HasOne("FirstPro.Models.Person", null)
+                        .WithMany()
+                        .HasForeignKey("PeoplePersonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FirstPro.Models.Language", null)
+                        .WithMany()
+                        .HasForeignKey("languagesLangId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("FirstPro.Models.City", b =>
                 {
                     b.Navigation("People");
@@ -240,12 +258,6 @@ namespace FirstPro.Migrations
             modelBuilder.Entity("FirstPro.Models.Country", b =>
                 {
                     b.Navigation("cities");
-                });
-
-            modelBuilder.Entity("FirstPro.Models.Person", b =>
-                {
-                    b.Navigation("Language")
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

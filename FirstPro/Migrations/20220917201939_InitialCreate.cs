@@ -22,6 +22,20 @@ namespace FirstPro.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Language",
+                columns: table => new
+                {
+                    LangId = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    PersonId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Language", x => x.LangId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "City",
                 columns: table => new
                 {
@@ -64,20 +78,24 @@ namespace FirstPro.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Language",
+                name: "LanguagePerson",
                 columns: table => new
                 {
-                    LangId = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    PersonId = table.Column<int>(type: "int", nullable: false)
+                    PeoplePersonId = table.Column<int>(type: "int", nullable: false),
+                    languagesLangId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Language", x => x.LangId);
+                    table.PrimaryKey("PK_LanguagePerson", x => new { x.PeoplePersonId, x.languagesLangId });
                     table.ForeignKey(
-                        name: "FK_Language_Person_PersonId",
-                        column: x => x.PersonId,
+                        name: "FK_LanguagePerson_Language_languagesLangId",
+                        column: x => x.languagesLangId,
+                        principalTable: "Language",
+                        principalColumn: "LangId",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_LanguagePerson_Person_PeoplePersonId",
+                        column: x => x.PeoplePersonId,
                         principalTable: "Person",
                         principalColumn: "PersonId",
                         onDelete: ReferentialAction.Cascade);
@@ -86,17 +104,22 @@ namespace FirstPro.Migrations
             migrationBuilder.InsertData(
                 table: "Country",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 1, "Italy" });
+                values: new object[,]
+                {
+                    { 1, "Italy" },
+                    { 2, "Spain" },
+                    { 3, "Sweden" }
+                });
 
             migrationBuilder.InsertData(
-                table: "Country",
-                columns: new[] { "Id", "Name" },
-                values: new object[] { 2, "Spain" });
-
-            migrationBuilder.InsertData(
-                table: "Country",
-                columns: new[] { "Id", "Name" },
-                values: new object[] { 3, "Sweden" });
+                table: "Language",
+                columns: new[] { "LangId", "Name", "PersonId" },
+                values: new object[,]
+                {
+                    { 1, "Italian", 1 },
+                    { 2, "Spanish", 2 },
+                    { 3, "Svenska", 3 }
+                });
 
             migrationBuilder.InsertData(
                 table: "City",
@@ -128,31 +151,15 @@ namespace FirstPro.Migrations
                 columns: new[] { "PersonId", "CityId", "LangId", "Name", "PhoneNumber" },
                 values: new object[] { 3, 3, 3, "Matilda", "07000000" });
 
-            migrationBuilder.InsertData(
-                table: "Language",
-                columns: new[] { "LangId", "Name", "PersonId" },
-                values: new object[] { 1, "Italian", 1 });
-
-            migrationBuilder.InsertData(
-                table: "Language",
-                columns: new[] { "LangId", "Name", "PersonId" },
-                values: new object[] { 2, "Spanish", 2 });
-
-            migrationBuilder.InsertData(
-                table: "Language",
-                columns: new[] { "LangId", "Name", "PersonId" },
-                values: new object[] { 3, "Svenska", 3 });
-
             migrationBuilder.CreateIndex(
                 name: "IX_City_CountryId",
                 table: "City",
                 column: "CountryId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Language_PersonId",
-                table: "Language",
-                column: "PersonId",
-                unique: true);
+                name: "IX_LanguagePerson_languagesLangId",
+                table: "LanguagePerson",
+                column: "languagesLangId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Person_CityId",
@@ -162,6 +169,9 @@ namespace FirstPro.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "LanguagePerson");
+
             migrationBuilder.DropTable(
                 name: "Language");
 
