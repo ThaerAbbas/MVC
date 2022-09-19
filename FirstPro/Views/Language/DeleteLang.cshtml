@@ -1,12 +1,19 @@
-﻿
+﻿@using FirstPro.Models
+@model Language
+
+
+
 
 <h3>Delete Language</h3>
+
+<h3>Delete @Model.Name ?</h3>
+
 <div>
 
   
 
     <form asp-action="DeleteLang" method="post">
-        <input type="hidden" name="lngid"/>
+        <input type="hidden" name="langid" value="@Model.LangId" />
         <input type="submit" value="Delete" class="btn btn-danger" />
     </form>
     <a asp-action="LangIndex">Back</a>

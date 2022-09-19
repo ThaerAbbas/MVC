@@ -3,6 +3,7 @@ using FirstPro.ViewModels;
 using FirstPro.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using NuGet.ProjectModel;
 
 namespace FirstPro.Controllers
 {
@@ -51,19 +52,18 @@ namespace FirstPro.Controllers
 
         public IActionResult EditLang(int id)
         {
-       
-           
-                
-             return View();
-         
+
+            var language = _context.languages.FirstOrDefault(m => m.LangId == id);
+        
+                return View(language);
             
         }
 
         [HttpPost]
-        public IActionResult EditLang(int id, Language l)
+        public IActionResult EditLang(int id, Language language)
         {
-            var language = _context.languages.FirstOrDefault(m => m.LangId == id);
-            _context.languages.Update(l);
+           
+            _context.languages.Update(language);
             _context.SaveChanges();
             return RedirectToAction("LangIndex");
 
@@ -72,22 +72,23 @@ namespace FirstPro.Controllers
         public IActionResult DeleteLang(int id)
         {
 
-            if (ModelState.IsValid)
-            {
+        
+            
                 var language = _context.languages.FirstOrDefault(l=> l.LangId == id);
                 return View(language);
-            }
+            
 
-            return RedirectToAction("LangIndex");
+           
 
 
         }
 
         [HttpPost]
-        public IActionResult DeleteLangِِ(Language l , int lngid)
+        public IActionResult DeleteLang(int langid, int id)
         {
-           var language = _context.languages.FirstOrDefault(m => m.LangId == lngid);
-            _context.Remove(l);
+           var language = _context.languages.Where(m => m.LangId == langid).FirstOrDefault();
+            
+            _context.languages.Remove(language);
             _context.SaveChanges();
             return RedirectToAction("LangIndex");
         }

@@ -22,9 +22,9 @@ namespace FirstPro.Models
         }
 
     
-        public Language(int id, string name, int personId)
+        public Language(int langId, string name, int personId)
         {
-            LangId = id;
+            LangId = langId;
             Name = name;
             PersonId = personId;
         }

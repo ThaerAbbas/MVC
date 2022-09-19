@@ -7,6 +7,12 @@
 </head>
 <body>
 
+    <div>
+        <a asp-action="CreateCountry">Create</a>
+
+    </div>
+
+
     <table class="table">
         <thead>
             <tr>
@@ -25,6 +31,10 @@
 
                     <td>@country.Name</td>
 
+                    <td class="text-center">
+                        <a asp-action="EditCountry" asp-route-id="@country.Id">Edit</a>
+                        <a asp-action="DeleteCountry" asp-route-id="@country.Id">Delete</a>
+                    </td>
                 </tr>
             }
         </tbody>

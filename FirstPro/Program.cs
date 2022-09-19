@@ -84,16 +84,47 @@ app.MapControllerRoute(name: "CreateLang",
                 defaults: new { controller = "Language", action = "CreateLang" });
 
 app.MapControllerRoute(
-    name: "Delete",
+    name: "DeleteLang",
         pattern: "DeleteLang/{*DeleteLang}",
                 defaults: new { controller = "Language", action = "DeleteLang" });
 
 
 
 app.MapControllerRoute(
-name: "Edit",
+name: "EditLang",
     pattern: "EditLang/{*EditLang}",
             defaults: new { controller = "Language", action = "EditLang" });
+
+
+app.MapControllerRoute(
+name: "EditCountry",
+    pattern: "EditCountry/{*EditCountry}",
+            defaults: new { controller = "Country", action = "EditCountry" });
+
+
+
+
+
+app.MapControllerRoute(
+name: "CreateCountry",
+    pattern: "CreateCountry/{*CreateCountry}",
+            defaults: new { controller = "Country", action = "CreateCountry" });
+
+
+
+
+
+
+
+app.MapControllerRoute(
+name: "DeleteCountry",
+    pattern: "DeleteCountry/{*DeleteCountry}",
+            defaults: new { controller = "Country", action = "DeleteCountry" });
+
+
+
+
+
 
 
 
