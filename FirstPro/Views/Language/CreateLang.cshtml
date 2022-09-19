@@ -1,0 +1,28 @@
+﻿@model FirstPro.Models.Language
+
+
+
+@{
+    ViewData["Title"] = "CreateLang";
+}
+
+
+<h2>Add Language</h2>
+
+
+<form action="CreateLang" method="post">
+    <div>
+        <div class="form-group">
+            <input type="text" class=" form-control " name="Name" value="" placeholder="Name" style="width:auto">
+        </div>
+        
+        <div class="form-group">
+            <input class="btn btn-secondary " id="submit" type="submit" value="Create">
+        </div>
+    </div>
+</form>
+    </div>
+
+
+    <a asp-action="LangIndex">Back</a>
+</div>

@@ -79,6 +79,27 @@ app.MapControllerRoute(
         pattern: "Delete/{*Delete}",
                 defaults: new { controller = "Person", action = "Delete" });
 
+app.MapControllerRoute(name: "CreateLang",
+      pattern: "CreateLang/{*CreateLang}",
+                defaults: new { controller = "Language", action = "CreateLang" });
+
+app.MapControllerRoute(
+    name: "Delete",
+        pattern: "DeleteLang/{*DeleteLang}",
+                defaults: new { controller = "Language", action = "DeleteLang" });
+
+
+
+app.MapControllerRoute(
+name: "Edit",
+    pattern: "EditLang/{*EditLang}",
+            defaults: new { controller = "Language", action = "EditLang" });
+
+
+
+
+
+
 
 
 

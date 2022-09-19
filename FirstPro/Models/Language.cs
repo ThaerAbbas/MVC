@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection;
 
 namespace FirstPro.Models
 {
@@ -20,7 +21,7 @@ namespace FirstPro.Models
 
         }
 
-
+    
         public Language(int id, string name, int personId)
         {
             LangId = id;
