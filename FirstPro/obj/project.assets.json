@@ -9107,11 +9107,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\FirstPro.csproj",
+      "projectUniqueName": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\FirstPro.csproj",
       "projectName": "FirstPro",
-      "projectPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\FirstPro.csproj",
+      "projectPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\FirstPro.csproj",
       "packagesPath": "C:\\Users\\Thaer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\FirstPro\\obj\\",
+      "outputPath": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Thaer\\AppData\\Roaming\\NuGet\\NuGet.Config",
