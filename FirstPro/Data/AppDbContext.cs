@@ -1,10 +1,13 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using FirstPro.Models;
 using System.Diagnostics.Metrics;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace FirstPro.Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext :  IdentityDbContext<FirstProUser>
     {
         public AppDbContext()
 
@@ -54,13 +57,68 @@ namespace FirstPro.Data
                           .HasMany(p => p.languages)
                           .WithMany(pe => pe.People);
 
-       
+
+
+
+
+
+            string adminRoleId = Guid.NewGuid().ToString();
+            string userRoleId = Guid.NewGuid().ToString();
+            string userId = Guid.NewGuid().ToString();
+
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole
+            {
+                Id = adminRoleId,
+                Name = "Admin",
+                NormalizedName = "ADMIN"
+            });
+            modelBuilder.Entity<IdentityRole>().HasData(new IdentityRole
+            {
+                Id = userRoleId,
+                Name = "User",
+                NormalizedName = "USER"
+            });
+
+            PasswordHasher<FirstProUser> hasher = new PasswordHasher<FirstProUser>();
+
+            modelBuilder.Entity<FirstProUser>().HasData(new FirstProUser
+            {
+                Id = userId,
+                Email = "admin@admin.com",
+                NormalizedEmail = "ADMIN@ADMIN.COM",
+                UserName = "admin@admin.com",
+                NormalizedUserName = "ADMIN@ADMIN.COM",
+                Firstname = "Admin",
+                Lastname = "Adminsson",
+                Birthdate = 1989,
+                PasswordHash = hasher.HashPassword(null, "password")
+            });
+
+           
+
+            modelBuilder.Entity<IdentityUserRole<string>>().HasNoKey();          
+             
+
+
+            modelBuilder.Entity<IdentityUserLogin<string>>().HasNoKey();
+            modelBuilder.Entity<IdentityUserToken<string>>().HasNoKey();
+
+
+
         }
 
 
 
-   
 
     }
 
+
+
+
+
+
+
+
 }
+
+

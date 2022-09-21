@@ -3,6 +3,8 @@ using Microsoft.CodeAnalysis.Differencing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileSystemGlobbing.Internal;
 using System.Xml.Linq;
+using Microsoft.AspNetCore.Identity;
+using FirstPro.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddMvc();
@@ -20,6 +22,23 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddDefaultIdentity<FirstProUser>(options => options.SignIn.RequireConfirmedAccount = true)
+ .AddRoles<IdentityRole>()
+ .AddEntityFrameworkStores<AppDbContext>();
+
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = true;
+    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequiredUniqueChars = 1;
+    options.Password.RequireUppercase = true;
+    options.Password.RequiredLength = 6;
+
+});
+
 
 
 var app = builder.Build();
@@ -150,6 +169,7 @@ app.MapControllerRoute(name: "Doctor",
                 defaults: new { controller = "Fever", action = "CheckTemp" });
 app.MapControllerRoute(name: "default",
                pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseAuthentication();;
 
 
 
