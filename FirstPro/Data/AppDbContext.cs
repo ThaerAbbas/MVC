@@ -27,7 +27,7 @@ namespace FirstPro.Data
         public DbSet<Language> languages { get; set; }
 
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder) 
 
         {
 
@@ -57,7 +57,9 @@ namespace FirstPro.Data
                           .HasMany(p => p.languages)
                           .WithMany(pe => pe.People);
 
-
+            modelBuilder.Entity<IdentityUserRole<string>>().HasNoKey();
+            modelBuilder.Entity<IdentityUserLogin<string>>().HasNoKey();
+            modelBuilder.Entity<IdentityUserToken<string>>().HasNoKey();
 
 
 
@@ -94,18 +96,18 @@ namespace FirstPro.Data
                 PasswordHash = hasher.HashPassword(null, "password")
             });
 
-           
+            modelBuilder.Entity<IdentityUserRole<string>>().HasData(new IdentityUserRole<string>
+            {
+                RoleId = adminRoleId,
+                UserId = userId
+            });
 
-            modelBuilder.Entity<IdentityUserRole<string>>().HasNoKey();          
-             
 
-
-            modelBuilder.Entity<IdentityUserLogin<string>>().HasNoKey();
-            modelBuilder.Entity<IdentityUserToken<string>>().HasNoKey();
-
+            base.OnModelCreating(modelBuilder);
 
 
         }
+
 
 
 

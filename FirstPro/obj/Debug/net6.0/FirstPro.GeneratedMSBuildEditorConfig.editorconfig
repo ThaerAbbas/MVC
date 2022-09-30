@@ -175,6 +175,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/AddUserToRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBZGRVc2VyVG9Sb2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/ShowAllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxTaG93QWxsVXNlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/ShowUserRoles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxTaG93VXNlclJvbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

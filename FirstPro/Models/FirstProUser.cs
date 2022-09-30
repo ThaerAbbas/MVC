@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
+
+using System.Data;
 
 namespace FirstPro.Models
 {
-    // Add profile data for application users by adding properties to the FirstProUser class
+   
  
     public class FirstProUser : IdentityUser
     {
@@ -15,4 +16,6 @@ namespace FirstPro.Models
         public string Lastname { get; set; }
         public int Birthdate { get; set; }
     }
+
+
 }

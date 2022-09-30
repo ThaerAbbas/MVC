@@ -23,6 +23,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+
+
+
 builder.Services.AddDefaultIdentity<FirstProUser>(options => options.SignIn.RequireConfirmedAccount = true)
  .AddRoles<IdentityRole>()
  .AddEntityFrameworkStores<AppDbContext>();
@@ -40,7 +43,6 @@ builder.Services.Configure<IdentityOptions>(options =>
 });
 
 
-
 var app = builder.Build();
 
 app.UseStaticFiles();
@@ -49,6 +51,10 @@ app.UseRouting();
 
 app.UseSession();
 app.MapControllers();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
 
 
 app.MapControllerRoute(name :"Guessing",
@@ -144,6 +150,11 @@ name: "DeleteCountry",
 
 
 
+
+app.MapControllerRoute(
+    name: "Role",
+        pattern: "Role/{*Index}",
+                defaults: new { controller = "Role", action = "Index" });
 
 
 
