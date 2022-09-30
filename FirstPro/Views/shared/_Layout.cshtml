@@ -1,4 +1,4 @@
-﻿
+﻿@inject Microsoft.AspNetCore.Hosting.IHostingEnvironment _env
 <!DOCTYPE html>
 
 <html>
@@ -14,15 +14,7 @@
 </head>
 
 <body>
-    <tbody>
-        <ul class="nav navbar-nav navbar-right">
-            <li><a asp-area="Identity" asp-page="/Account/Register">Register</a></li>
-            <li>
-                <a id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
-
-            </li>
-        </ul>
-    </tbody>
+   
     <nav class="navbar" style="background-color: #e3f2fd;">
   
 
@@ -69,6 +61,7 @@
         @RenderBody()
     </div>
      <script src="~/js/JavaScript.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 
   <footer class="footer">

@@ -43,6 +43,8 @@ builder.Services.Configure<IdentityOptions>(options =>
 });
 
 
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
 
 app.UseStaticFiles();
@@ -55,7 +57,7 @@ app.MapControllers();
 app.UseAuthentication();
 app.UseAuthorization();
 
-
+app.MapRazorPages();
 
 app.MapControllerRoute(name :"Guessing",
       pattern: "GuessingGame/{*GuessGame}",
