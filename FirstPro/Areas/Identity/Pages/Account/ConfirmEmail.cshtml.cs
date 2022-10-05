@@ -29,7 +29,7 @@ namespace FirstPro.Areas.Identity.Pages.Account
         {
             if (userId == null || code == null)
             {
-                return RedirectToPage("/Index");
+                return RedirectToPage("/IndexModel");
             }
 
             var user = await _userManager.FindByIdAsync(userId);
