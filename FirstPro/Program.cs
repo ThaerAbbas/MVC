@@ -5,9 +5,17 @@ using Microsoft.Extensions.FileSystemGlobbing.Internal;
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Identity;
 using FirstPro.Models;
+using FirstPro.Controllers;
+
+
+
+
+
+
+
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddMvc();
+builder.Services.AddMvc(options => options.EnableEndpointRouting = false);
 builder.Services.AddDistributedMemoryCache();
 
 builder.Services.AddSession(options =>
@@ -18,9 +26,11 @@ builder.Services.AddSession(options =>
 });
 
 
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+
 });
 
 
@@ -43,19 +53,47 @@ builder.Services.Configure<IdentityOptions>(options =>
 });
 
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "MyPolicy",
+        policy =>
+        {
+            policy.WithOrigins("http://example.com",
+                                "http://www.contoso.com")
+                    .WithMethods("PUT", "DELETE", "GET");
+        });
+});
+
+
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
+app.UseCors(
+        options => options.WithOrigins("https://localhost:7161").AllowAnyMethod()
+            );
+
+app.UseCors(MyAllowSpecificOrigins);
+
+
 app.UseStaticFiles();
+
+
 app.UseRouting();
-
-
-app.UseSession();
-app.MapControllers();
-
+app.UseCors(x => x.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+}); 
+app.UseSession();
+
+
+
 
 app.MapRazorPages();
 
