@@ -60,9 +60,8 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: "MyPolicy",
         policy =>
         {
-            policy.WithOrigins("http://example.com",
-                                "http://www.contoso.com")
-                    .WithMethods("PUT", "DELETE", "GET");
+            policy.WithOrigins("*")
+                    .WithMethods("PUT", "DELETE", "GET","POST");
         });
 });
 

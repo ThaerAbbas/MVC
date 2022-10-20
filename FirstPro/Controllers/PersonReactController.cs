@@ -48,6 +48,41 @@ namespace FirstPro.Controllers
         }
 
         [EnableCors("MyPolicy")]
+        [Route("api/Persons/AddPersons")]
+        [HttpPost]
+        public Response AddPersons(PersonReact personReact)
+        {
+            Person person = new Person(personReact);
+            Response response = new Response();
+
+         
+            ModelState.Remove("Cities");
+            ModelState.Remove("Languages");
+          
+
+            if (person.PersonId > 0)
+            {
+
+            _context.Add(person);
+            _context.SaveChanges();
+
+            response.Person = person;
+            response.ResponseCod = "200";
+            response.ResponseMessage = "Data fetched";
+            }
+            else
+            {
+                response.Person = person;
+                response.ResponseCod = "100";
+                response.ResponseMessage = "Faild";
+            }
+
+            return response;
+        }
+
+
+
+        [EnableCors("MyPolicy")]
         [Route("api/Persons/GetLanguage")]
         [HttpGet]
         public Response GetLanguage(Language language)

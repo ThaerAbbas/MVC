@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Reflection;
+using System.Xml.Linq;
 using static FirstPro.ViewModels.CityViewModel;
 
 namespace FirstPro.Models
@@ -50,6 +51,20 @@ namespace FirstPro.Models
      
         public Person()
         {
+        }
+
+        public Person(PersonReact personReact)
+        {
+            PersonId= personReact.PersonId;
+            
+            Name = personReact.Name;
+
+            PhoneNumber = personReact.PhoneNumber;
+
+            CityId = personReact.CityId;
+
+            LangId = personReact.LangId;
+
         }
     }
 }
