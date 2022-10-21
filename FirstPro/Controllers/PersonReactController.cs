@@ -6,9 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Web.Http;
 using System.Xml.Linq;
+using FromBodyAttribute = Microsoft.AspNetCore.Mvc.FromBodyAttribute;
 using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
 using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
+
 
 namespace FirstPro.Controllers
 {
@@ -50,33 +52,34 @@ namespace FirstPro.Controllers
         [EnableCors("MyPolicy")]
         [Route("api/Persons/AddPersons")]
         [HttpPost]
-        public Response AddPersons(PersonReact personReact)
+        public Response AddPersons([FromBody]PersonReact personReact)
         {
-            Person person = new Person(personReact);
+            Person person = new Person();
             Response response = new Response();
 
          
             ModelState.Remove("Cities");
-            ModelState.Remove("Languages");
-          
+            ModelState.Remove("languages");
+            ModelState.Remove("Countries");
 
-            if (person.PersonId > 0)
-            {
+           
+           person.Name=personReact.Name;
+            person.PhoneNumber= personReact.PhoneNumber;
+            person.CityId = 2;
+            person.LangId = 2;
 
-            _context.Add(person);
+           
+            Console.WriteLine("============================" + person.Name);
+            Console.WriteLine("============================" + person.PhoneNumber);
+
+            _context.Add(person);    
             _context.SaveChanges();
 
             response.Person = person;
             response.ResponseCod = "200";
             response.ResponseMessage = "Data fetched";
-            }
-            else
-            {
-                response.Person = person;
-                response.ResponseCod = "100";
-                response.ResponseMessage = "Faild";
-            }
-
+           
+           
             return response;
         }
 
