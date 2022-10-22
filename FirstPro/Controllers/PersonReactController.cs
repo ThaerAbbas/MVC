@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Web.Http;
 using System.Xml.Linq;
 using FromBodyAttribute = Microsoft.AspNetCore.Mvc.FromBodyAttribute;
+using HttpDeleteAttribute = Microsoft.AspNetCore.Mvc.HttpDeleteAttribute;
 using HttpGetAttribute = Microsoft.AspNetCore.Mvc.HttpGetAttribute;
 using HttpPostAttribute = System.Web.Http.HttpPostAttribute;
 using RouteAttribute = Microsoft.AspNetCore.Mvc.RouteAttribute;
@@ -192,5 +193,35 @@ namespace FirstPro.Controllers
             return response;
         }
 
-    }
+        [EnableCors("MyPolicy")]
+        [Route("api/Persons/Delete/{id}")]
+        [HttpDelete]
+        public Response DeleteById(int id)
+        {
+            Response response = new Response();
+
+           
+            List<Person> match = (from p in _context.People where p.PersonId == id select p).ToList();
+
+            if (match.Any())
+            {
+                var person = match.First();
+                _context.People.Remove(person);
+                _context.SaveChanges();
+
+                response.ResponseCod = "200";
+                response.ResponseMessage = "Deleted succsed";
+            }
+            else
+            {
+                response.ResponseCod = "100";
+                response.ResponseMessage = "Faild to delete";
+            }
+        
+
+
+            return response;
+        }
+
+        }
 }
