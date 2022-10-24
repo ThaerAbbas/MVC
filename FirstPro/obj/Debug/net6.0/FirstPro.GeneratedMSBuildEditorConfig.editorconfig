@@ -8,217 +8,217 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FirstPro
 build_property.RootNamespace = FirstPro
-build_property.ProjectDir = C:\Users\Thaer\Desktop\Ajax\MVC\MVC\MVC\FirstPro\
+build_property.ProjectDir = C:\Users\Thaer\Desktop\New folder (3)\Ajax\MVC\MVC\MVC\FirstPro\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Thaer\Desktop\Ajax\MVC\MVC\MVC\FirstPro
+build_property.MSBuildProjectDirectory = C:\Users\Thaer\Desktop\New folder (3)\Ajax\MVC\MVC\MVC\FirstPro
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/IndexModel.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/IndexModel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXhNb2RlbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Ajax/AjaxIndex.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Ajax/AjaxIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxBamF4SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Ajax/AjaxPerson.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Ajax/AjaxPerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWpheFxBamF4UGVyc29uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/City/Index.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/City/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2l0eVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/CountryIndex.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/CountryIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxDb3VudHJ5SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/CreateCountry.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/CreateCountry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxDcmVhdGVDb3VudHJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/DeleteCountry.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/DeleteCountry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxEZWxldGVDb3VudHJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/EditCountry.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Country/EditCountry.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291bnRyeVxFZGl0Q291bnRyeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Fever/CheckTemp.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Fever/CheckTemp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmV2ZXJcQ2hlY2tUZW1wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/GuessingGame/GuessGame.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/GuessingGame/GuessGame.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3NpbmdHYW1lXEd1ZXNzR2FtZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/About.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/Contact.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/Home.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/Index.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/CreateLang.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/CreateLang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcQ3JlYXRlTGFuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/DeleteLang.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/DeleteLang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcRGVsZXRlTGFuZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/EditLang.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/EditLang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcRWRpdExhbmcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/LangIndex.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Language/LangIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGFuZ3VhZ2VcTGFuZ0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Create.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Delete.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Details.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Edit.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Person/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/AddUserToRole.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/AddUserToRole.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxBZGRVc2VyVG9Sb2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/Create.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/Index.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/ShowAllUsers.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/ShowAllUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxTaG93QWxsVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/ShowUserRoles.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/Role/ShowUserRoles.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxTaG93VXNlclJvbGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/Error.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/_Layout.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/_LoginPartial.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/_PartialPerson.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/shared/_PartialPerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXF9QYXJ0aWFsUGVyc29uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/_ViewImports.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Thaer/Desktop/Ajax/MVC/MVC/MVC/FirstPro/Views/_ViewStart.cshtml]
+[C:/Users/Thaer/Desktop/New folder (3)/Ajax/MVC/MVC/MVC/FirstPro/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

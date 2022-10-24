@@ -77,7 +77,8 @@ app.UseCors(
 
 app.UseCors(MyAllowSpecificOrigins);
 
-app.UseCors(x => x
+app.UseCors(x => x.WithOrigins("http://localhost:3000/NewPerson")
+
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .SetIsOriginAllowed(origin => true) // allow any origin

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pBRfQNsWHvoU87jIkIVA5gkWWDfQNzU3APgpsU1ZWVo=",
+  "Hash": "4WgULoxubOSx4615gVWNYp3joKHQzUh3VbGaBry7+Rc=",
   "Source": "FirstPro",
   "BasePath": "_content/FirstPro",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "FirstPro\\wwwroot",
       "Source": "FirstPro",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\Thaer\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.9\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\css\\site.css",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\images\\1.png",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\images\\1.png",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "images/1.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\images\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\images\\2.png",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\images\\2.png",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "images/2.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2.png"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\js\\JavaScript.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\js\\JavaScript.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "js/JavaScript.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\js\\JavaScript.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\js\\site.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FirstPro",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Thaer\\Desktop\\New folder (3)\\Ajax\\MVC\\MVC\\MVC\\FirstPro\\wwwroot\\",
       "BasePath": "_content/FirstPro",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

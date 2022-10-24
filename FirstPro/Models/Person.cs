@@ -24,7 +24,7 @@ namespace FirstPro.Models
         public string PhoneNumber { get; set; }
       
         [Column("City")]
-        public City City { get; set; }
+        public City ? City { get; set; }
         [Column("CityId")]
      
         public int CityId { get; set; }
