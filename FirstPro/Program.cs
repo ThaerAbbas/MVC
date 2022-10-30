@@ -36,15 +36,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 
-builder.Services.AddDefaultIdentity<FirstProUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<FirstProUser>(options => options.SignIn.RequireConfirmedAccount = false)
  .AddRoles<IdentityRole>()
  .AddEntityFrameworkStores<AppDbContext>();
+
+
+
 
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireDigit = true;
-    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireNonAlphanumeric = false;
     options.Password.RequireLowercase = true;
     options.Password.RequiredUniqueChars = 1;
     options.Password.RequireUppercase = true;
@@ -196,11 +199,52 @@ name: "DeleteCountry",
 
 
 
+app.MapControllerRoute(
+name: "Create",
+    pattern: "Create new role/{*Create}",
+            defaults: new { controller = "Role", action = "Create" });
+
+
+
+
+
+app.MapControllerRoute(
+name: "ShowAllUsers",
+    pattern: "Check users/{*ShowAllUsers}",
+            defaults: new { controller = "Role", action = "ShowAllUsers" });
+
+
+
+
+
+app.MapControllerRoute(
+name: "ShowUserRoles",
+    pattern: "Check roles /{*ShowUserRoles}",
+            defaults: new { controller = "Role", action = "ShowUserRoles" });
+
+
+
+app.MapControllerRoute(
+name: "ShowRoles",
+    pattern: "ShowRoles /{*Index}",
+            defaults: new { controller = "Role", action = "Index" });
+
+
+
+
+app.MapControllerRoute(
+name: "AddRoleToUser",
+    pattern: "AddRoleToUser /{*AddRoleToUser}",
+            defaults: new { controller = "Role", action = "AddRoleToUser" });
+
+
+
 
 app.MapControllerRoute(
     name: "Role",
         pattern: "Role/{*Index}",
                 defaults: new { controller = "Role", action = "Index" });
+
 
 
 

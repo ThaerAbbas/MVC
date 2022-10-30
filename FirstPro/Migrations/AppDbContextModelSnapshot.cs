@@ -41,7 +41,7 @@ namespace FirstPro.Migrations
 
                     b.HasIndex("CountryId");
 
-                    b.ToTable("City");
+                    b.ToTable("City", (string)null);
 
                     b.HasData(
                         new
@@ -78,7 +78,7 @@ namespace FirstPro.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Country");
+                    b.ToTable("Country", (string)null);
 
                     b.HasData(
                         new
@@ -212,7 +212,7 @@ namespace FirstPro.Migrations
 
                     b.HasKey("LangId");
 
-                    b.ToTable("Language");
+                    b.ToTable("Language", (string)null);
 
                     b.HasData(
                         new
@@ -265,7 +265,7 @@ namespace FirstPro.Migrations
 
                     b.HasIndex("CityId");
 
-                    b.ToTable("Person");
+                    b.ToTable("Person", (string)null);
 
                     b.HasData(
                         new
@@ -306,7 +306,7 @@ namespace FirstPro.Migrations
 
                     b.HasIndex("languagesLangId");
 
-                    b.ToTable("LanguagePerson");
+                    b.ToTable("LanguagePerson", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

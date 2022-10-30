@@ -1,5 +1,4 @@
-﻿@inject Microsoft.AspNetCore.Hosting.IHostingEnvironment _env
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
@@ -20,6 +19,8 @@
 
      <div class="logo"><img src="/images/1.png" alt="Logo" width="220px" height="120px"></div>
 
+
+
        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
        
       
@@ -30,20 +31,6 @@
          <li class="nav-item"><a asp-controller="Fever" asp-action="CheckTemp">Doctor</a></li>
           <li class="nav-item"><a asp-controller="GuessingGame" asp-action="GuessGame">GuessingGame</a></li>
 
-            <li class="nav-item"><a asp-controller="Person" asp-action="Details">Person</a></li>
-                @if (User.IsInRole("Admin"))
-                {
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-controller="Role" asp-action="Index">Check roles</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-dark" asp-controller="Role" asp-action="ShowAllUsers">Check users</a>
-                </li>
-                }
-            <li class="nav-item">
-                <partial name="_LoginPartial">
-
-
 
             <li class="nav-item"><a asp-controller="City" asp-action="Index">City</a></li>
             <li class="nav-item"><a asp-controller="Country" asp-action="CountryIndex">Country</a></li>
@@ -51,6 +38,20 @@
             <li class="nav-item"><a asp-controller="language" asp-action="LangIndex">language</a></li>
       
           
+            <li class="nav-item"><a asp-controller="Person" asp-action="Details">Person</a></li>
+                @if (User.IsInRole("Admin"))
+                {
+                <li class="nav-item">
+                    <a class="btn btn-info" asp-controller="Role" asp-action="ShowRoles">Check roles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-info" asp-controller="Role" asp-action="ShowAllUsers">Check users</a>
+                </li>
+                }
+            <li class="nav-item">
+                <partial name="_LoginPartial"></li>
+
+
             
        </div>
      </ul>

@@ -1,36 +1,25 @@
-﻿@model FirstPro.Models.FirstProUser
+﻿@using FirstPro.ViewModels
+@model UserRoleViewModel
+@{
+    ViewData["Title"] = "ShowUserRoles";
+}
 
-
-<h1>Show all users</h1>
+<h1>Show roles for @Model.UserName</h1>
 
 <table class="table">
     <thead>
         <tr>
-            <th>
-                Id
-            </th>
-            <th>
-                Username
-            </th>
-            <th>
-                First name
-            </th>
-            <th>
-                Last name
-            </th>
+            <th>Role name</th>
             <th></th>
         </tr>
     </thead>
-   
-    
+    @foreach (var role in Model.Roles)
+    {
         <tr>
-            <td>@Model.Id</td>
-        <td>@Model.UserName</td>
-        <td>@Model.Firstname</td>
-        <td>@Model.Lastname</td>
+            <td>@role</td>
             <td>
-            <a asp-action="ShowUserRoles" asp-route-id="@Model.Id" class="btn-primary">Check roles</a>
+                <a asp-action="RemoveRoleFromUser" asp-route-rolename="@role" asp-route-userid=@Model.UserId class="btn btn-danger">Remove role from user</a>
             </td>
         </tr>
-    
+    }
 </table>

@@ -1,6 +1,13 @@
 ﻿
+
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
 <h1>Add User To Role</h1>
-<form asp-action="AddUserToRole" method="post">
+<form asp-action="AddRoleToUser" method="post">
     <div class="form-group">
         <label>User:</label>
         <select name="userId" class="form-control" asp-items="ViewBag.Users"></select>
@@ -11,3 +18,6 @@
     </div>
     <input type="submit" value="Add user to role" class="btn btn-primare" />
 </form>
+<p>
+    <a asp-action="Index">Return to roles</a>
+</p>

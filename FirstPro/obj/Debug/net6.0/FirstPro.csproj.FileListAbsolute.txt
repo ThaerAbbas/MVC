@@ -1525,3 +1525,4 @@ C:\Users\Thaer\Desktop\New folder (3)\Ajax\MVC\MVC\MVC\FirstPro\obj\Debug\net6.0
 C:\Users\Thaer\Desktop\New folder (3)\Ajax\MVC\MVC\MVC\FirstPro\obj\Debug\net6.0\FirstPro.pdb
 C:\Users\Thaer\Desktop\New folder (3)\Ajax\MVC\MVC\MVC\FirstPro\obj\Debug\net6.0\FirstPro.genruntimeconfig.cache
 C:\Users\Thaer\Desktop\New folder (3)\Ajax\MVC\MVC\MVC\FirstPro\obj\Debug\net6.0\ref\FirstPro.dll
+C:\Users\Thaer\Desktop\New folder (3)\Ajax\MVC\MVC\MVC\FirstPro\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll

@@ -24,7 +24,6 @@ namespace FirstPro.Areas.Identity.Pages.Account
         private readonly UserManager<FirstProUser> _userManager;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
-
         public RegisterModel(
             UserManager<FirstProUser> userManager,
             SignInManager<FirstProUser> signInManager,
@@ -38,11 +37,12 @@ namespace FirstPro.Areas.Identity.Pages.Account
         }
 
         [BindProperty]
-        public InputModel Input { get; set; }
+        public InputModel Input { get; set; } 
 
         public string ReturnUrl { get; set; }
 
         public IList<AuthenticationScheme> ExternalLogins { get; set; }
+        public string Password { get; private set; }
 
         public class InputModel
         {
@@ -55,7 +55,9 @@ namespace FirstPro.Areas.Identity.Pages.Account
             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
-            public string? Password { get; set; }
+            [Required]
+
+            public string? Password { get; set; } 
 
             [DataType(DataType.Password)]
             [Display(Name = "Confirm password")]
@@ -76,7 +78,7 @@ namespace FirstPro.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = new FirstProUser { UserName = Input.Email, Email = Input.Email };
-                var result = await _userManager.CreateAsync(user, Input.Password);
+                var result = await _userManager.CreateAsync(user,Input.Password);
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");

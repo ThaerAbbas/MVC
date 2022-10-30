@@ -1,8 +1,6 @@
-﻿
-
-namespace FirstPro.Models
+﻿namespace FirstPro.ViewModels
 {
-    public class UserRole
+    public class UserRoleViewModel
     {
 
         public string UserId { get; set; }
