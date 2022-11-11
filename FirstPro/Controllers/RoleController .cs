@@ -48,8 +48,8 @@ namespace FirstPro.Controllers
 
         public IActionResult AddRoleToUser()
         {
-            ViewBag.UserSelect = new SelectList(_userManager.Users, "Id", "UserName");
-            ViewBag.RoleSelect = new SelectList(_roleManager.Roles, "Name", "Name");
+            ViewBag.User = new SelectList(_userManager.Users, "Id", "UserName");
+            ViewBag.Role = new SelectList(_roleManager.Roles, "Name", "Name");
             return View();
         }
 
@@ -62,7 +62,7 @@ namespace FirstPro.Controllers
             var user = await _userManager.FindByIdAsync(userId);
             await _userManager.AddToRoleAsync(user, roleName);
 
-            return RedirectToAction("AddRoleToUser");
+            return RedirectToAction("Index");
         }
 
         public IActionResult ShowAllUsers()

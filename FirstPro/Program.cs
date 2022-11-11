@@ -207,6 +207,19 @@ name: "Create",
 
 
 
+app.MapControllerRoute(
+name: "Delete",
+    pattern: "DeleteRole/{*Delete}",
+            defaults: new { controller = "Role", action = "Delete" });
+
+
+
+app.MapControllerRoute(
+name: "Delete",
+    pattern: "RemoveRoleFromUser/{*RemoveRoleFromUser}",
+            defaults: new { controller = "Role", action = "RemoveRoleFromUser" });
+
+
 
 app.MapControllerRoute(
 name: "ShowAllUsers",

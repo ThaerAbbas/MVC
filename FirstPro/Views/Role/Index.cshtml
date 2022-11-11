@@ -3,7 +3,7 @@
 
 
 @{
-    ViewData["Title"] = "View";
+    ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -17,7 +17,7 @@
     <a asp-action="ShowAllUsers">Show all users</a>
 </p>
 <p>
-    <a asp-action="AddRoleToUser">Add role to person</a>
+    <a asp-action="AddRoleToUser">Add role to User</a>
 </p>
 <table class="table">
     <thead>
@@ -43,7 +43,10 @@
                 </td>
                 <td>
 
-                    <a asp-action="Delete" asp-route-id="@role.Id" class="btn btn-danger">Delete role</a>
+                    @if (role.Name != "User" && role.Name != "Admin")
+                    {
+                        <a asp-action="Delete" asp-route-id="@role.Id" class="btn btn-danger">Delete role</a>
+                    }
                 </td>
             </tr>
         }
